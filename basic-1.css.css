@@ -1,0 +1,71 @@
+body{
+    background-image: url(../css/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+marquee{
+    background-color:green;
+    color: tomato;
+    font-weight: bold;
+    left:0;
+    padding:1px;
+    margin-top: 0;
+    
+}
+marquee:hover{
+    font-size: 16px;
+    color:yellow;
+}
+ol{
+    width: 80%;
+    margin:auto;
+    color:white;
+    padding-top: 10px;
+    
+}
+ol li{
+    list-style-type:none;
+    display:inline-block;
+    padding:15px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color:blue;
+    border:2px solid:blue;   
+}
+ol li:hover{
+    background-color: greenyellow;
+    font-size: 20px;
+}
+li a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.b{
+    text-align: center;
+    padding-top: 25px;
+}
+input[type="email"]{
+    padding:5px;
+    margin-bottom: 10px;
+}
+input[type="password"]{
+    padding:5px;
+    margin-bottom: 10px;
+}
+input[type="color"]{
+    margin: 20px;
+    width:20px;
+    margin: 10px;
+}
+.c button{
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    padding: 5px;
+    margin-top:2px;
+}
+.c button:hover{
+    background-color:yellow;
+    font-size: 15px;
+}
